@@ -1,0 +1,94 @@
+/* style */
+
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.wallet__body {
+    background-color: ghostwhite;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.top__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.number {
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.minus {
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    width: 40px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.minus:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.money__screen{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.money__screen:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.wallet__scren {
+    width: 1000px;
+    height: 1000%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
